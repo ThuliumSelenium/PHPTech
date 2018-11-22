@@ -11,10 +11,11 @@ class AdministrateurController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
-    }
+
+     public function VoirListeComptes()
+     {
+         return view('VoirListeComptes');
+     }
 
     /**
      * Show the form for creating a new resource.
