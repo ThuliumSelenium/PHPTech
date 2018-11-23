@@ -14,21 +14,16 @@ class UtilisateurController extends Controller
 
     public function VoirFormation()
     {
-        return view('VoirFormation');
+        return view('Utilisateur/VoirFormation');
     }
 
     public function VoirListeFormations()
     {
-        return view('VoirListeFormations');
-    }
-
-    public function VoirFormulaire()
-    {
-        return view('VoirFormulaire');
+        return view('Utilisateur/VoirListeFormations');
     }
 
     public function VoirCompte()
     {
-        return view('VoirCompte');
+        return view('Utilisateur/VoirCompte');
     }
 }

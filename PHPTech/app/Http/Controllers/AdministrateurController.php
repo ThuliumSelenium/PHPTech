@@ -14,7 +14,7 @@ class AdministrateurController extends Controller
 
      public function VoirListeComptes()
      {
-         return view('VoirListeComptes');
+         return view('Administrateur/VoirListeComptes');
      }
 
     /**

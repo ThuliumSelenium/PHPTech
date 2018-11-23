@@ -18,7 +18,6 @@ Route::get('/', 'AdministrateurController@VoirListeComptes');
 Route::get('/Formation', 'UtilisateurController@VoirFormation');
 Route::get('/ListeDeFormations', 'UtilisateurController@VoirListeFormations');
 Route::get('/Compte', 'UtilisateurController@VoirCompte');
-Route::get('/Formulaire', 'UtilisateurController@VoiFormulaire');
 
 /* Visiteur */
 Route::get('/Connexion', 'VisiteurController@VoirConnexion');

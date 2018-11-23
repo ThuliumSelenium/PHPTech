@@ -1,0 +1,41 @@
+.footer {
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+}
+
+.site-wrap, #content{
+  height:100%;
+}
+
+.site-footer{
+  padding:0 !important;
+}
+
+#piedDePage{
+  margin-top: 1em!important;
+}
+
+
+html,body{
+background-image: url('https://wallpapertag.com/wallpaper/full/c/a/0/142443-widescreen-blue-ombre-background-1920x1080-photo.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+#content{
+  margin-top: 0!important;
+}
+
+#titre{
+  position: absolute;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+}
+
+.form-title{
+  margin-bottom:1em !important;
+}
