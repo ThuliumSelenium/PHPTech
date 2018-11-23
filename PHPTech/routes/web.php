@@ -25,3 +25,6 @@ Route::get('/Connexion', 'VisiteurController@VoirConnexion');
 Route::get('/Inscription', 'VisiteurController@VoirInscription');
 Route::get('/Accueil', 'VisiteurController@VoirAccueil');
 Route::get('/', 'VisiteurController@VoirAccueil');
+Route::get('/Form', function () {
+    return view('Shared/Form_Layout');
+});
